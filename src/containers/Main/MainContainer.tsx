@@ -4,7 +4,7 @@ import React, { FC } from 'react'
 import { Container } from '../../components/core/Container'
 
 const MainContainer: FC = (props) => {
-  return <Container>{props.children}</Container>
+  return <Container center>{props.children}</Container>
 }
 
 export default MainContainer

@@ -2,16 +2,15 @@ import React, { FC } from 'react'
 
 import { MainContainer } from '../../containers/Main'
 import { Layout } from '../../components/core/Layout'
-import { Example } from '../../components/Example'
 
-const MainPage: FC = () => {
+const DocsPage: FC = () => {
   return (
     <Layout>
       <MainContainer>
-        <Example />
+        <p className="text-lg text-white">This is the docs page</p>
       </MainContainer>
     </Layout>
   )
 }
 
-export default MainPage
+export default DocsPage
