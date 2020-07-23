@@ -38,17 +38,25 @@ const Example: FC = () => {
         <li>
           <Link
             className="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
-            to="/recoil"
+            to="/dashboard"
           >
-            Secure routes
+            Dashboard [Secure route]
           </Link>
         </li>
         <li>
           <Link
             className="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
-            to="/storybook"
+            to="/about"
           >
-            Storybook
+            About [Secure route]
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+            to="/login"
+          >
+            Login
           </Link>
         </li>
       </ul>
